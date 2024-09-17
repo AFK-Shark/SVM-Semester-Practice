@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RoomPoint
   - Rooms
+  - Block
   layers:
   - Default
   - TransparentFX
