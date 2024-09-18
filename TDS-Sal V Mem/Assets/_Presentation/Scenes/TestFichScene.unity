@@ -221,25 +221,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topRooms:
-  - {fileID: 4362592606020596297, guid: 10bc14e3cef0d924583da52843559a18, type: 3}
-  - {fileID: 4362592606020596297, guid: 1eaa2cedf9ebcc94bbd3fef2e3b41b21, type: 3}
-  - {fileID: 4362592606020596297, guid: 66702c60794fe7349aab628ae827b47d, type: 3}
-  - {fileID: 4362592606020596297, guid: 05a739e41ee48164d934c6e7816a87c8, type: 3}
+  - {fileID: 4362592606020596297, guid: eef52530b4e069443b4f9fce99c7667d, type: 3}
+  - {fileID: 4362592606020596297, guid: 0bd1a4eb5ec12394d92ae2d524194df2, type: 3}
+  - {fileID: 4362592606020596297, guid: 7e024c9b9f9643943adf6a42b5cefe1b, type: 3}
+  - {fileID: 4362592606020596297, guid: 7fc2fc0e49f64534d8b9ec965e43d87f, type: 3}
   bottomRooms:
-  - {fileID: 4362592606020596297, guid: b175b49828b55fa4382884e2fd4649d1, type: 3}
-  - {fileID: 4362592606020596297, guid: 36e9f51ef92bc3747912b855fb301db5, type: 3}
-  - {fileID: 4362592606020596297, guid: 1eaa2cedf9ebcc94bbd3fef2e3b41b21, type: 3}
-  - {fileID: 4362592606020596297, guid: efb88b9769f7ff14caf291373c9b9961, type: 3}
+  - {fileID: 4362592606020596297, guid: 91778f386c9ab6a4e822b58658a2cb80, type: 3}
+  - {fileID: 4362592606020596297, guid: f496bdec786776148bdd30b8ff7060c0, type: 3}
+  - {fileID: 4362592606020596297, guid: fd23f851655246a4e8b4dc3c80c15558, type: 3}
+  - {fileID: 4362592606020596297, guid: 7fc2fc0e49f64534d8b9ec965e43d87f, type: 3}
   rightRooms:
-  - {fileID: 4362592606020596297, guid: 6ad4a70ac0a1f5944a22a6fc0a1fbbd0, type: 3}
-  - {fileID: 4362592606020596297, guid: b9540cdd7fc04f64493a0fceffb6a291, type: 3}
-  - {fileID: 4362592606020596297, guid: efb88b9769f7ff14caf291373c9b9961, type: 3}
-  - {fileID: 4362592606020596297, guid: 05a739e41ee48164d934c6e7816a87c8, type: 3}
+  - {fileID: 4362592606020596297, guid: c5ee39524752b134b94e0e44bc94adee, type: 3}
+  - {fileID: 4362592606020596297, guid: fd23f851655246a4e8b4dc3c80c15558, type: 3}
+  - {fileID: 4362592606020596297, guid: 7e024c9b9f9643943adf6a42b5cefe1b, type: 3}
+  - {fileID: 4362592606020596297, guid: 195a55ddb3f2dd14dbe4a67e418a246e, type: 3}
   leftRooms:
-  - {fileID: 4362592606020596297, guid: 282ae14aed27a2e439e5cfc005642d79, type: 3}
-  - {fileID: 4362592606020596297, guid: 66702c60794fe7349aab628ae827b47d, type: 3}
-  - {fileID: 4362592606020596297, guid: b9540cdd7fc04f64493a0fceffb6a291, type: 3}
-  - {fileID: 4362592606020596297, guid: 36e9f51ef92bc3747912b855fb301db5, type: 3}
+  - {fileID: 4362592606020596297, guid: 0041ae4020176ef4fba8d5c4c0b49e6c, type: 3}
+  - {fileID: 4362592606020596297, guid: f496bdec786776148bdd30b8ff7060c0, type: 3}
+  - {fileID: 4362592606020596297, guid: 0bd1a4eb5ec12394d92ae2d524194df2, type: 3}
+  - {fileID: 4362592606020596297, guid: 195a55ddb3f2dd14dbe4a67e418a246e, type: 3}
 --- !u!4 &426176933
 Transform:
   m_ObjectHideFlags: 0
@@ -669,7 +669,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.0416875
+  orthographic size: 3.9325314
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
