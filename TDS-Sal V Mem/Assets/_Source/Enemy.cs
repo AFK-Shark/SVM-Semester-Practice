@@ -27,6 +27,15 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (player.transform.position.x < transform.position.x)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
 

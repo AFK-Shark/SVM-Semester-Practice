@@ -10,6 +10,8 @@ public class Mage : MonoBehaviour
     public int damage;
     public LayerMask whatIsSolid;
 
+    [SerializeField] bool enemyBullet;
+
     private void Start()
     {
         Invoke("DestroyBullet", lifetime);
@@ -23,6 +25,10 @@ public class Mage : MonoBehaviour
             if (hitInfo.collider.CompareTag("Enemy"))
             {
                 hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
+            }
+            if (hitInfo.collider.CompareTag("Player") && enemyBullet)
+            {
+                hitInfo.collider.GetComponent<Player>().ChangeHealth( -damage);
             }
             DestroyBullet();
         }

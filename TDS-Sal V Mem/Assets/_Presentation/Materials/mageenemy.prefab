@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8505746766400065058}
   - component: {fileID: 6718550722518776666}
   m_Layer: 6
-  m_Name: mage
+  m_Name: mageenemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 955ea98cf66ddb447a249d72f04a31fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9123ba1aa97d7e44081d3fb5a74d90bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,10 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156fc6fa357f7f240b5b1dde8206a4aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  lifetime: 0.5
-  distance: 0.5
-  damage: 1
+  speed: 15
+  lifetime: 2
+  distance: 0
+  damage: 3
   whatIsSolid:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
+  enemyBullet: 1

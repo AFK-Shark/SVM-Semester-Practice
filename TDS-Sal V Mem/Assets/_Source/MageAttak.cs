@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class MageAttak : MonoBehaviour
 {
+    public GunType bunType;
     public float offset;
     public GameObject bullet;
     public Transform shotPoint;
+
+    public enum GunType { Default, Enemy}
 
     private float timeBtwShots;
     public float startTimeBtwShots;
