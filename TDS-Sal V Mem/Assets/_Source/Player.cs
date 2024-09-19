@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float speed;
+    public int health;
+
     private Vector2 direction;
     private Rigidbody2D rb;
 
@@ -22,5 +24,10 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+    }
+
+    public void ChangeHealth(int healthValue)
+    {
+        health += healthValue;
     }
 }
